@@ -1,10 +1,10 @@
-#razk1- to do list 
+#task1- to do list 
 tasks = []
 print("To-Do List")
 while True:
     task = input("Enter a task (or type done to stop): ")
     if task.lower() == "done":
-    break
+        break
     tasks.append(task)
 
 print("\nMy Tasks:")
